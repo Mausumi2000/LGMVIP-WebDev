@@ -1,0 +1,89 @@
+button{
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  padding: 12px 10px;
+  margin-top: -6px;
+}
+
+button:hover{
+  transition: 200ms;
+  scale: 1.03;
+  background: radial-gradient(pink, red);
+  color: black;
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background:radial-gradient(maroon,pink);
+}
+
+.box2{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+.column3{
+  float: left;
+  width: 33%;
+}
+
+h2{
+  margin-top: -8px;
+  padding-top: 0px;
+  font-weight: 900;
+}
+
+.profile {
+  border: 2px solid gray;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-radius: 18px;
+  background: linear-gradient(black, orange);
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 black;
+  transform: translateY(-3px);
+  font-weight: bold;
+}
+.email {
+  color: white;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+  color: white;
+}
+.loader{
+  margin-left: 500px;
+  margin-right: 550px;
+  margin-top: 200px;
+}
